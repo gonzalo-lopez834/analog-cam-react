@@ -1,0 +1,130 @@
+.item-detail {
+  max-width: 900px;
+  margin: 0 auto;
+  position: relative;
+  z-index: 1;
+}
+
+.item-detail .product-item {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 3rem;
+  padding: 3rem;
+  align-items: start;
+  max-width: none;
+  background: linear-gradient(145deg, #ffffff 0%, #f0f0f0 100%);
+  border: 2px solid #c0c0c0;
+  box-shadow: 
+    0 12px 32px rgba(0, 0, 0, 0.2),
+    inset 0 2px 0 rgba(255, 255, 255, 0.7);
+}
+
+.item-detail .product-item:hover {
+  transform: none;
+}
+
+.item-detail .product-item img {
+  width: 100%;
+  height: 400px;
+  object-fit: cover;
+  border: 4px solid #b0b0b0;
+  box-shadow: 
+    0 8px 24px rgba(0, 0, 0, 0.2),
+    inset 0 0 30px rgba(0, 0, 0, 0.08);
+  margin-bottom: 0;
+}
+
+.item-detail .product-item:hover img {
+  transform: none;
+  filter: grayscale(10%) contrast(1.08) brightness(1.03);
+}
+
+.item-detail-info {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.item-detail .product-title {
+  font-size: 2.5rem;
+  margin: 0;
+  border-bottom: 3px solid #6b6b6b;
+  padding-bottom: 1rem;
+}
+
+.item-detail .product-item p {
+  font-size: 1.1rem;
+  line-height: 1.8;
+  margin: 0.8rem 0;
+}
+
+.item-detail .product-item p:first-of-type {
+  font-size: 2rem;
+  color: #3a3a3a;
+  margin-top: 0;
+  padding: 1rem;
+  background: rgba(180, 180, 180, 0.15);
+  border-left: 4px solid #4a4a4a;
+  border-radius: 4px;
+}
+
+.item-detail .product-item button {
+  margin-top: 2rem;
+  padding: 1.2rem 2.5rem;
+  font-size: 1.2rem;
+  width: 100%;
+  max-width: 350px;
+}
+
+.product-category {
+  display: inline-block;
+  background: #3a3a3a;
+  color: #f0f0f0;
+  padding: 0.5rem 1.2rem;
+  border-radius: 20px;
+  font-size: 0.9rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin-top: 0.5rem;
+}
+
+@media (max-width: 968px) {
+  .item-detail .product-item {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+    padding: 2rem;
+  }
+
+  .item-detail .product-item img {
+    height: 350px;
+  }
+
+  .item-detail .product-title {
+    font-size: 2rem;
+  }
+
+  .item-detail .product-item p:first-of-type {
+    font-size: 1.6rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .item-detail .product-item {
+    padding: 1.5rem;
+  }
+
+  .item-detail .product-item img {
+    height: 280px;
+  }
+
+  .item-detail .product-title {
+    font-size: 1.6rem;
+  }
+
+  .item-detail .product-item button {
+    max-width: 100%;
+    padding: 1rem 2rem;
+    font-size: 1rem;
+  }
+}

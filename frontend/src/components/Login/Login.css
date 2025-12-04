@@ -1,0 +1,84 @@
+/* Login Component Styles */
+.login-container {
+  padding: 3rem 1rem;
+  min-height: 70vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #f8f9fa;
+}
+
+.login-card {
+  max-width: 400px;
+  width: 100%;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.login-card .card-body {
+  padding: 2rem;
+}
+
+.login-title {
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin-bottom: 1.5rem;
+  color: #333;
+}
+
+.login-form .form-label {
+  font-weight: 500;
+  color: #555;
+}
+
+.login-form .form-control {
+  border-radius: 6px;
+  border: 1px solid #ddd;
+  padding: 0.75rem;
+  font-size: 1rem;
+}
+
+.login-form .form-control:focus {
+  border-color: #0d6efd;
+  box-shadow: 0 0 0 0.2rem rgba(13, 110, 253, 0.25);
+}
+
+.login-btn {
+  padding: 0.75rem 1.5rem;
+  font-weight: 500;
+  border-radius: 6px;
+}
+
+.credentials-info {
+  font-size: 0.875rem;
+  padding: 1rem;
+  background-color: #e3f2fd;
+  border-left: 4px solid #1976d2;
+}
+
+.credentials-info strong {
+  color: #1565c0;
+}
+
+.credentials-info code {
+  background-color: #bbdefb;
+  padding: 0.2rem 0.4rem;
+  border-radius: 3px;
+  font-size: 0.8rem;
+}
+
+@media (max-width: 768px) {
+  .login-container {
+    padding: 2rem 0.5rem;
+    min-height: 60vh;
+  }
+  
+  .login-card .card-body {
+    padding: 1.5rem;
+  }
+  
+  .login-title {
+    font-size: 1.3rem;
+  }
+}

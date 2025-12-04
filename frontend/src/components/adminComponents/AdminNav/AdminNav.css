@@ -1,0 +1,42 @@
+.admin-nav {
+  background: #343a40;
+  padding: 1rem 0;
+  margin-bottom: 2rem;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.admin-nav .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.admin-nav h5 {
+  color: #fff;
+  margin: 0;
+  font-weight: 600;
+}
+
+.admin-nav-links {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}
+
+.admin-nav-links .btn {
+  font-size: 0.9rem;
+}
+
+@media (max-width: 768px) {
+  .admin-nav .container {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  
+  .admin-nav-links {
+    width: 100%;
+    flex-wrap: wrap;
+  }
+}

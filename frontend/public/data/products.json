@@ -1,0 +1,50 @@
+[
+  {
+    "id": "1",
+    "name": "Contax G2",
+    "price": 850000,
+    "category": "SLR",
+    "description": "Cámara analógica de 35mm con enfoque automático y lentes Carl Zeiss. Sistema compacto profesional con medición matricial y múltiples modos de disparo.",
+    "imageUrl": "/images/ContaxG201.jpg"
+  },
+  {
+    "id": "2",
+    "name": "Leica R3",
+    "price": 420000,
+    "category": "SLR",
+    "description": "Réflex de 35mm con obturador electrónico y medición TTL. Construcción robusta y compatible con lentes Leica R de calidad excepcional.",
+    "imageUrl": "/images/LeicaR3_1944x.jpg"
+  },
+  {
+    "id": "3",
+    "name": "Olympus OM-4",
+    "price": 380000,
+    "category": "SLR",
+    "description": "SLR compacta con sistema de medición multi-spot único. Diseño ergonómico y ligero, ideal para fotografía profesional y de viaje.",
+    "imageUrl": "/images/Olympus_OM4.jpg"
+  },
+  {
+    "id": "4",
+    "name": "Canon Prima Twins",
+    "price": 95000,
+    "category": "Compactas",
+    "description": "Cámara compacta con lente dual 35mm y 70mm. Sistema point & shoot perfecto para fotografía casual y street photography.",
+    "imageUrl": "/images/CANONPRIMATWINS.jpg"
+  },
+  {
+    "id": "5",
+    "name": "Contax T2",
+    "price": 1250000,
+    "category": "Compactas",
+    "description": "Cámara compacta premium con lente Carl Zeiss Sonnar 38mm f/2.8. Construcción en titanio y modo manual, la compacta definitiva para puristas.",
+    "imageUrl": "/images/ContaxT2-1.jpg"
+  },
+  {
+    "id": "6",
+    "name": "Pentax 17",
+    "price": 680000,
+    "category": "Compactas",
+    "description": "Cámara compacta de formato medio (formato 17) con diseño retro moderno. Sistema híbrido manual-automático ideal para experimentación creativa.",
+    "imageUrl": "/images/Pentax17.jpg"
+  }
+]
